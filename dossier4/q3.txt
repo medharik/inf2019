@@ -1,0 +1,1 @@
+TypeEolienne typeEolienne =new TypeEolienne();

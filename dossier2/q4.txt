@@ -1,0 +1,3 @@
+public java.util.Collection<Eolienne> eolienne;
+d'après de diagamme de classe un type d'eolienne regroupe plusieurs eoliennes
+autrement dit un type d'eolienne (Type_eolinne ) est une collection d'eoliennes  (Collection<Eolienne>)

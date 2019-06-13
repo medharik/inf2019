@@ -1,0 +1,2 @@
+Génération des ID d'objet sous forme de balises JavaDoc 
+ utilisés , entre autres ,  pour le reverse engineering

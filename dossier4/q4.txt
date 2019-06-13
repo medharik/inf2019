@@ -1,0 +1,6 @@
+ itemlist = new System.Collections.Generic.List<string>();  
+            itemlist.Add("Eolienne  leading edge");  
+            itemlist.Add("Eolienne 12V");  
+            itemlist.Add("Eolienne  Rutland");  
+            itemlist.Add("Eolienne 24v 300w");  
+            itemlist.Add("Eolienne950");  

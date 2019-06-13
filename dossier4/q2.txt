@@ -1,0 +1,3 @@
+Xamarin est un framework de développement mobile multiplateforme.
+ Il permet  de développer son application sur IOS,
+  Windows Phone et Android en même temps

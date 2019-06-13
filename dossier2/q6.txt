@@ -1,0 +1,8 @@
+Javadoc s'appuie sur le code source et sur un type de commentaires particuliers /** */ 
+(commentaires de  documetation de la classe ) pour obtenir des données 
+supplémentaires des éléments qui composent le code source,
+comme le nom du module , l'auteur , la description de la classe,  la version ,
+et la date de création...
+
+une autre reponse :
+pour documenter la classe 

@@ -1,0 +1,4 @@
+alter table eolienne add constraint fk1 foreign key(ref_type) references type_eolienne(ref_type)
+alter table type_eolienne add constraint fk2 foreign key(ref_fournisseur) references fournisseur (ref_fournisseur)
+alter table est_installe add constraint fk3 foreign key(id_eolienne) references eolienne(id_eolienne)
+alter table est_installe add constraint fk4 foreign key(id_position) references position(id_position)

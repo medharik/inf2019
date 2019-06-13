@@ -1,0 +1,16 @@
+create or replace function  nombre_eolienne_par_date (v_date in est_installe%type)
+ return  number 
+
+is
+
+v_nombre_eolienne_par_date number;
+
+begin
+
+select count(*) into v_nombre_eolienne_par_date from est_installe where date = v_date;
+
+return v_nombre_eolienne_par_date;
+
+end;
+
+

@@ -1,0 +1,37 @@
+
+
+
+
+
+create table fournisseur (
+ref_fournisseur  varchar2(25),
+ville_fournisseur varchar2(15),
+tel_fournisseur varchar2(115),
+mail_fournisseur varchar2(15),
+site_web_fournisseur varchar2(55)
+constraint pk1 primary key (ref_fournisseur)
+)
+ 
+
+create table position (
+id_position number(6) ,
+latitude   binary_double,
+longitude binary_double, 
+description  varchar2(255), 
+constraint pk2 primary key(id_position)
+)
+
+create table type_eolienne (
+ref_type varchar2(15) ,
+ref_fournisseur  varchar2(25),
+puissance  integer,
+ hauteur float , 
+ vitesse _max  float ,
+ nb_pales integer,
+ tension_delivree float ,
+ desc_eolienne varchar2(255) ,
+ prix number(8,2),
+ constraint pk3 primary key(ref_type) 
+
+)
+

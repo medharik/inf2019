@@ -1,0 +1,8 @@
+CREATE USER EolienneAdm  IDENTIFIED BY Eoliennepwd;
+
+GRANT  DBA TO EolienneAdm;
+
+CREATE USER lecteur  IDENTIFIED BY lecteurpwd;
+
+GRANT select on schema.eolienne, schema.position to lecteur;
+

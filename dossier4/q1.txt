@@ -1,0 +1,5 @@
+AXML: Permet de définir l'interface utilisateur 
+pour les applications Android uniquement. Ce sont les mêmes fichiers utilisés par les applications natives Android.
+
+XAML: spécifie les dispositions Xamarin.Forms;
+ ces fichiers décrivent une disposition multiplate-forme  (cross platform) que chaque plate-forme restitue ensuite dans ses contrôles natifs

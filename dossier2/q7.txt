@@ -1,0 +1,1 @@
+La méthode finalize() est appelée  par le ramasse-miettes (Garbage collector)  avant qu'une instance ne soit détruite de la mémoire.

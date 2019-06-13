@@ -1,0 +1,6 @@
+declare 
+n number ;
+begin 
+n:=nombre_eolienne_par_date(TO_DATE('13/06/2019', 'DD/MM/YYYY'));
+dbms_output.put_line(n);
+end ;
